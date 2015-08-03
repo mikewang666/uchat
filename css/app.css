@@ -1,0 +1,12 @@
+div.content {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -15px; /* Decrease this value for cross-browser compatibility */
+    overflow: auto;
+    padding: 44px 0;
+}
